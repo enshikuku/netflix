@@ -1,0 +1,212 @@
+@font-face {
+    font-family: Netflix-Sans;
+    src: url(NetflixSansRegular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Netflix-Sans;
+}
+
+/* First Row*/
+#first-row {
+    background-image: url(../images/bg.jpg);
+    height: 661px;    
+    color: white;
+    border-bottom: 8px solid grey ;
+}
+#first-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#first-row1 img {
+    width: 140px;
+    margin-left: 50px;
+}
+#first-row1 button {
+    width: 80px;
+    height: 35px;
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5%;
+}
+#input1, #button2 {
+    height: 60px;
+}
+
+.span1 {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+#input1 {
+    width: 400px;;
+    font-size: 16px;
+}
+#button2 {
+    width: 200px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    font-size: 29px;
+}
+#button2 img {
+    width: 29px;
+    height: 26px;
+}
+
+#first-row2 {
+    padding: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#first-row2-1{
+    width: 500px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#first-row2-2{
+    width: 500px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#first-row2-3{
+    width: 650px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#first-row1, #first-row2 {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+}
+
+/* End First row*/
+/* Second Row */
+#second-row {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 520px;
+    border-bottom: 8px solid grey ;
+}
+#second-row1 {
+    padding-left: 120px;
+    width: 600px;
+}
+#second-row1, #second-row2 {
+    padding-top: 100px;
+}
+#second-row1 h1 {
+    font-size: 45px;
+}
+#second-row1 p {
+    font-size: 23px;
+}
+#button3 {
+    background-color: black;
+    color: white;
+    font-size: 23px;
+}
+#button3 img {
+    width: 20px;
+    height: 20px;
+}
+#second-row2 img {
+    width: 600px;
+    padding-right: 120px;
+} 
+/* End Second Row */
+/* FAQ */
+#faq {
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 8px solid grey ;
+}
+#faq h1 {
+    font-size: 39px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#faq .question, #faq .answer {
+    font-size: 25px;
+    background-color: #313131;
+    padding: 20px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#faq .question {
+    border-bottom: 1px solid black;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#faq .answer {
+    display: none;
+}
+#faq .question img {
+    width: 25px;
+    height: 25px;
+}
+/* END - FAQ */
+
+.footer {
+    background-color: black;
+    height: 320px;
+    color: #b4b4b4;
+    
+}
+.footer-div {
+    padding-top: 90px;
+    padding-left: 220px;
+    padding-right: 330px;
+}
+#footer-div1 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-div a {
+    font-size: 13px;
+    color: #b4b4b4;
+    text-decoration: none;
+}
+#foot-div {
+    display: flex;
+    flex-direction: column;
+    
+}
+#atagQ {
+    font-size: 20px;
+}
+.footer-div p {
+    font-size: 15px ;
+    padding-top: 10px;
+}
